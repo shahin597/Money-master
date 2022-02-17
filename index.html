@@ -26,58 +26,58 @@
                 <!-- income-field -->
                 <div class="input-group input-group-sm mb-3">
                     <span class="input-group-text" id="inputGroup-sizing-sm">income:</span>
-                    <input type="text" class="form-control" aria-label="Sizing example input"
+                    <input id="income-input" type="text" class="form-control" aria-label="Sizing example input"
                         aria-describedby="inputGroup-sizing-sm">
                 </div>
                 <h5 class="text-center">Expenses</h5>
                 <!-- Food field -->
                 <div class="input-group input-group-sm mb-3">
                     <span class="input-group-text" id="inputGroup-sizing-sm">Food:</span>
-                    <input type="text" class="form-control" aria-label="Sizing example input"
+                    <input id="food-input" type="text" class="form-control" aria-label="Sizing example input"
                         aria-describedby="inputGroup-sizing-sm">
                 </div>
                 <!-- Rent field -->
                 <div class="input-group input-group-sm mb-3">
                     <span class="input-group-text" id="inputGroup-sizing-sm">Rent:</span>
-                    <input type="text" class="form-control" aria-label="Sizing example input"
+                    <input id="rent-input" type="text" class="form-control" aria-label="Sizing example input"
                         aria-describedby="inputGroup-sizing-sm">
                 </div>
                 <!-- cloths field -->
                 <div class="input-group input-group-sm mb-3">
                     <span class="input-group-text" id="inputGroup-sizing-sm">Clothes</span>
-                    <input type="text" class="form-control" aria-label="Sizing example input"
+                    <input id="cloth-input" type="text" class="form-control" aria-label="Sizing example input"
                         aria-describedby="inputGroup-sizing-sm">
                 </div>
                 <!-- button -->
                 <div class="d-flex justify-content-center">
-                    <button type="button" class="btn btn-primary">Calculate</button>
+                    <button id="calculate-button" type="button" class="btn btn-primary">Calculate</button>
                 </div>
                 <!-- total expense -->
                 <div class="d-flex justify-content-center mt-3">
                     <h4>Total expenses:</h4>
-                    <h4> 0</h4>
+                    <h4><span id="total-expense">0</span></h4>
                 </div>
                 <!-- Balance -->
                 <div class="d-flex justify-content-center mt-2">
                     <h4>Balance:</h4>
-                    <h4> 0</h4>
+                    <h4><span id="balance">0</span></h4>
                 </div>
                 <!-- save -->
                 <div class="d-flex justify-content-center mt-2">
                     <h4>Save: </h4>
-                    <input class="h-25 w-25 mx-2" type="text">
+                    <input id="save-input" class="h-25 w-25 mx-2" type="number">
                     <h4>%</h4>
-                    <button type="button" class="btn btn-primary h-25 ">Save</button>
+                    <button id="save-button" type="button" class="btn btn-primary h-25 ">Save</button>
 
                 </div>
                 <div class="d-flex justify-content-center mt-3">
                     <h4>Saving Amount:</h4>
-                    <h4> 0</h4>
+                    <h4><span id="saving-amount">0</span></h4>
                 </div>
                 <!-- Balance -->
                 <div class="d-flex justify-content-center mt-2">
                     <h4>Remaining Balance:</h4>
-                    <h4> 0</h4>
+                    <h4><span id="remaining-balance">0</span></h4>
                 </div>
             </div>
 
@@ -91,6 +91,7 @@
 
     </section>
 
+    <script src="js/index.js"></script>
 </body>
 
 </html>
