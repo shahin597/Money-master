@@ -6,10 +6,7 @@ function totalExpense() {
 
     const rentInputText = document.getElementById('rent-input').value;
     const rentInput = parseFloat(rentInputText);
-    // if (isNaN(rentInput) || rentInput > 0) {
-    //     alert("write whatever you want");
-    //     return false;
-    // }
+
     const clothInputText = document.getElementById("cloth-input").value;
     const clothInput = parseFloat(clothInputText);
 
