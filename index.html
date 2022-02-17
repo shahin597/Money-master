@@ -15,7 +15,7 @@
 
 <body>
     <section class="container">
-        <h1 class="text-center mb-2">My Personal Bank</h1>
+        <h1 class="text-center mb-2">My Personal Account</h1>
         <div class="row mt-5">
             <div class="col-lg-6 col-sm-12 shadow p-3 mb-5 bg-body rounded gx-4">
                 <img class="img-fluid" src="image/counting-moneys.jpg" alt="">
@@ -26,27 +26,27 @@
                 <!-- income-field -->
                 <div class="input-group input-group-sm mb-3">
                     <span class="input-group-text" id="inputGroup-sizing-sm">income:</span>
-                    <input id="income-input" type="text" class="form-control" aria-label="Sizing example input"
-                        aria-describedby="inputGroup-sizing-sm">
+                    <input id="income-input" type="number" placeholder="put a positive value" onfocus="this.value=''"
+                        class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
                 </div>
                 <h5 class="text-center">Expenses</h5>
                 <!-- Food field -->
                 <div class="input-group input-group-sm mb-3">
                     <span class="input-group-text" id="inputGroup-sizing-sm">Food:</span>
-                    <input id="food-input" type="text" class="form-control" aria-label="Sizing example input"
-                        aria-describedby="inputGroup-sizing-sm">
+                    <input id="food-input" type="number" placeholder="put a positive value" onfocus="this.value=''"
+                        class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
                 </div>
                 <!-- Rent field -->
                 <div class="input-group input-group-sm mb-3">
                     <span class="input-group-text" id="inputGroup-sizing-sm">Rent:</span>
-                    <input id="rent-input" type="text" class="form-control" aria-label="Sizing example input"
-                        aria-describedby="inputGroup-sizing-sm">
+                    <input id="rent-input" type="number" placeholder="put a positive value" onfocus="this.value=''"
+                        class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
                 </div>
                 <!-- cloths field -->
                 <div class="input-group input-group-sm mb-3">
                     <span class="input-group-text" id="inputGroup-sizing-sm">Clothes</span>
-                    <input id="cloth-input" type="text" class="form-control" aria-label="Sizing example input"
-                        aria-describedby="inputGroup-sizing-sm">
+                    <input id="cloth-input" type="number" placeholder="put a positive value" onfocus="this.value=''"
+                        class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
                 </div>
                 <!-- button -->
                 <div class="d-flex justify-content-center">
@@ -65,7 +65,8 @@
                 <!-- save -->
                 <div class="d-flex justify-content-center mt-2">
                     <h4>Save: </h4>
-                    <input id="save-input" class="h-25 w-25 mx-2" type="number">
+                    <input id="save-input" placeholder="put integer no" onfocus="this.value=''" class="h-25 w-25 mx-2"
+                        type="number">
                     <h4>%</h4>
                     <button id="save-button" type="button" class="btn btn-primary h-25 ">Save</button>
 
